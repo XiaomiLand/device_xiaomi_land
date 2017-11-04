@@ -42,12 +42,6 @@
     "revision": "android-7.1"
   },
   {
-    "remote": "omnirom",
-    "repository": "android_device_qcom_caf-sepolicy",
-    "target_path": "device/qcom/sepolicy",
-    "revision": "android-7.1"
-  },
-  {
     "repository": "android_external_ant-wireless_antradio-library",
     "target_path": "external/ant-wireless/antradio-library",
     "revision": "android-7.1"
