@@ -15,9 +15,17 @@
 # limitations under the License.
 #
 
+# Charger
+PRODUCT_PACKAGES += \
+    charger_res_images
+
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay
+
+# Time Zone data for recovery
+PRODUCT_COPY_FILES += \
+    bionic/libc/zoneinfo/tzdata:recovery/root/system/usr/share/zoneinfo/tzdata
 
 # Include device-specific product fragments
 include $(DEVICE_PATH)/product/*.mk
